@@ -10,19 +10,26 @@
     <main>
         <section id="login">
             <div id="imagem">
-                Foto
+                <img src="imagens/predio-redimensionado.jpg" alt="imagem de um prédio">
             </div>
             <div id="formulario">
-                <p>Seja bem-vindo(a) novamente, faça login para acessar sua conta e fazer configurações no seu ambiente.</p>
-                <form action="login.php" method="post">
-                    <p>
-                        <label for="iemail">E-mail</label>
-                        <input type="email" name="email" id="iemail">
-                    </p>
-                    <p>
-                        <label for="isenha">Senha</label>
-                        <input type="password" name="senha" id="isenha">
-                    </p>
+                <fieldset>
+                    <h1>Login</h1>
+                    <p>Seja bem-vindo(a) novamente Faça login para acessar sua conta e fazer configurações no seu ambiente.</p>
+                    <form action="login.php" method="post">
+                        <p>
+                            <label for="iemail">E-mail</label>
+                            <input type="email" name="email" id="iemail">
+                        </p>
+                        <p>
+                            <label for="isenha">Senha</label>
+                            <input type="password" name="senha" id="isenha">
+                        </p>
+                        <p>
+                            <input type="submit" value="Entrar">
+                    
+                        </p>
+                </fieldset>
                 </form>
             </div>
         </section>
